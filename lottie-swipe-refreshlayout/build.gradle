@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -32,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     testImplementation 'junit:junit:4.13.2'
@@ -51,9 +52,24 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
 
     // Glide
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 
     // MlKit
-    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.2.0'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.2'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = "com.github.yusufbekibragimov"
+                artifactId = "lottie-swipe-refreshlayout"
+                // test version
+                version = "1.0"
+            }
+        }
+    }
 }

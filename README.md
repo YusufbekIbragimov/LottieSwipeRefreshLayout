@@ -45,7 +45,7 @@ implementation 'com.github.YusufbekIbragimov:LottieSwipeRefreshLayout:#latest_ve
 
 </uz.yusufbekibragimov.testapp.lib.LottiePullToRefreshLayout>
 ```
-## Step 4. Warning !!!
+## Warning !!!
 You have to use only one RecyclerView in LottieSwipeRefreshLayout.
 ## Step 4. Result
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83059102/191929944-65174114-3543-42c1-aa6f-db1b88675a08.gif)

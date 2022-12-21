@@ -1,0 +1,3 @@
+package uz.yusufbekibragimov.lottie_swipe_refreshlayout
+
+object LottiePullToRefreshes

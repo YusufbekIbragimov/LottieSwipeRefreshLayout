@@ -49,4 +49,5 @@ implementation 'com.github.YusufbekIbragimov:LottieSwipeRefreshLayout:#latest_ve
 You have to use only one RecyclerView in LottieSwipeRefreshLayout.
 
 
+## Finally
 For bugs, feature requests, and discussion, please use GitHub Issues. For general questions ONLY, please contact via Telegram.

@@ -67,7 +67,6 @@ afterEvaluate {
 
                 groupId = "com.github.yusufbekibragimov"
                 artifactId = "lottie-swipe-refreshlayout"
-                // test version
                 version = "1.0"
             }
         }

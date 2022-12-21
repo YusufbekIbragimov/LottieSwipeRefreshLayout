@@ -18,7 +18,7 @@ allprojects {
 ## Step 2. Add the dependency Gradle:
 
 ```
-//Swipe Card
+//Swipe Refresh Layout
 implementation 'com.github.YusufbekIbragimov:LottieSwipeRefreshLayout:#latest_version'
 ```
 

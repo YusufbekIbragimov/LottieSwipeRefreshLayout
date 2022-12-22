@@ -46,7 +46,8 @@ implementation 'com.github.YusufbekIbragimov:LottieSwipeRefreshLayout:#latest_ve
 </uz.yusufbekibragimov.testapp.lib.LottiePullToRefreshLayout>
 ```
 ## Warning !!!
-You have to use only one RecyclerView in LottieSwipeRefreshLayout.
+You have to use only one view in LottieSwipeRefreshLayout and add layout type to your content view.
+There are three layout type available: [TOP_VIEW, CONTENT]
 
 
 ## Finally

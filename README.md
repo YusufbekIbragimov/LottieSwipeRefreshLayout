@@ -47,7 +47,7 @@ implementation 'com.github.YusufbekIbragimov:LottieSwipeRefreshLayout:#latest_ve
 ```
 ## Warning !!!
 You have to use only one view in LottieSwipeRefreshLayout and add layout type to your content view.
-There are three layout type available: [TOP_VIEW, CONTENT]
+There are two layout type available: [TOP_VIEW, CONTENT]
 
 
 ## Finally
